@@ -10,9 +10,10 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Observer Pattern Demo - Java</name>
-    <description>Educational demo of the Observer design pattern in Java</description>
-    <url>https://github.com/chittur/observer-pattern-demo-java</url>
+    <name>Discount Strategy Demo - Java</name>
+    <description>Educational demo of the Strategy design pattern in Java</description>
+    <url>https://github.com/BhupathiVarun/discount_strategy_app_dspt</url>
+
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -170,7 +171,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.1.0</version>
                 <configuration>
-                    <mainClass>com.observerpattern.Main</mainClass>
+                    <mainClass>com.discounting.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>
@@ -214,7 +215,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-report-plugin</artifactId>
-                <version>3.2.5</version>
+                <version>${checkstyle.version}</version>
             </plugin>
         </plugins>
     </reporting>
